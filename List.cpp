@@ -328,13 +328,13 @@ void RemoveByIndex(int index, List* lst)
 }
 
 
-List::~List() 
+void ClearList(List* lst) 
 {
-    while (RootNode)
+    while (lst->RootNode)
     {
-        LastNode = RootNode->Next;         
-        delete RootNode;
-        RootNode = LastNode;
+        lst->LastNode = lst->RootNode->Next;         
+        delete lst->RootNode;
+        lst->RootNode = lst->LastNode;
     }
 }
 

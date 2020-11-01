@@ -1,0 +1,2 @@
+C:\Users\Artem\source\repos\Data_Struct2\Debug\Data_Struct2.exe
+C:\Users\Artem\source\repos\Data_Struct2\Debug\Data_Struct2.pdb

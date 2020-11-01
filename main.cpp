@@ -13,8 +13,7 @@ int main()
 {
 	setlocale(LC_ALL, "RU");
 
-	List lst;
-	List* list = &lst;
+	List* list = new List;
 	ListInit(list);
 
 
@@ -104,6 +103,6 @@ int main()
 
 		system("cls");
 	}
-
+	ClearList(list);
 	return 0;
 }
